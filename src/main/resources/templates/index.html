@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital@1&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Simonetta:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/5.2.0/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Accueil </title>
+    <style>
+        *{
+            margin:0;
+
+        .nav-link{
+            font-size : 20px;
+            color : black;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body style="background-image:linear-gradient(rgba(31, 30, 30, 0.4),rgba(6, 6, 6, 0.4)), url('https://t3.ftcdn.net/jpg/05/66/54/16/360_F_566541693_WljU6enGuKCBVEn9vXhdCXL4uZ7wb6Xb.jpg'); background-repeat: no-repeat; background-size: cover; height:100vh;">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="navbar-brand" style="font-family: 'Dancing Script',cursive; font-size:30px; margin-left:50px; color:white;"> La maison du goût </li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index" style="font-family:'Roboto Condensed', sans-serif; margin-top:7px; color:white;">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="clientsList" style="font-family:'Roboto Condensed', sans-serif; margin-top:7px; color:white;">Liste des clients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tablesList" style="font-family:'Roboto Condensed', sans-serif; margin-top:7px; color:white;">Liste des tables</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="createClient"><button type="button" class="btn btn-outline-secondary" style = "color:white; font-size:20px;font-family:'Roboto Condensed', sans-serif;"> Ajouter un nouveau client </button></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div style="margin-left:200px; margin-top: 300px; width:800px; height:500px;">
+    <h1 style="font-family:'Simonetta', cursive; font-size:70px; color:white;"> La maison du goût </h1>
+    <p style="font-family:'Pompiere',cursive; font-size:50px; color:white;"> où chaque boucher est une explosion de saveurs.</p>
+
+</div>
+
+</body>
+</html>
